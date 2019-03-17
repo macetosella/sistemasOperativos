@@ -14,6 +14,7 @@ int main() {
 
 void configure_logger() {
 	logger = log_create("/home/utnso/Escritorio/tp0.log", "TP0",true, LOG_LEVEL_DEBUG);
+//comentario
 }
 
 int connect_to_server(char * ip, char * port) {
